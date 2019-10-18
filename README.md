@@ -1,7 +1,7 @@
-A presentation given at Drupalnorth 2019 Montreal on June 12, 2019.
+A presentation given at Drupalcamp 2019 Ottawa on October 17, 2019
 
-Available on Github Pages at https://alberto56.github.io/presentation-drupal-auto-security/
+Available on Github Pages at https://alberto56.github.io/presentation-unit-test/
 
-Tested for accessibility issues at:
+Accompanying blog post at 
 
-[![CircleCI](https://circleci.com/gh/alberto56/presentation-drupal-auto-security/tree/master.svg?style=svg)](https://circleci.com/gh/alberto56/presentation-drupal-auto-security/tree/master)
+Tested for accessibility issues at: https://blog.dcycle.com/unit
