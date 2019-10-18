@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Dcycle</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+
+        <section>
+          <img src="images/homeslide.jpg" alt="Start Unit Testing Your Code Today home slide" />
+        </section>
+
+        <section>
+          <h2>Start Unit Testing Your Code Today</h2>
+          <h3>Albert Albala</h3>
+          <p>Dcycle</p>
+          <p>@alberto56</p>
+          <p>This presentation is at<br/> github.com/alberto56/presentation-unit-test</p>
+        </section>
+
+        <section>
+          <h2>1. Let's look at some non-testable code</h2>
+          <p>All examples are documented in<br/>
+          blog.dcycle.com/unit</p>
+          <p>Numbers are to tags in <br/>
+          github.com/dcycle/unit-test-tutorial</p>
+        </section>
+
+        <section>
+          <h2>2. First step to unit testing:<br/>
+          DevOps and CI</h2>
+        </section>
+
+        <section>
+          <h2>3. Unit Tests do not have access to a full environment</h2>
+        </section>
+
+        <section>
+          <h2>4. Our first working test!</h2>
+        </section>
+
+        <section>
+          <h2>5. Data providers</h2>
+        </section>
+
+        <section>
+          <h2>6. Procedural code and static methods are not really that testable</h2>
+        </section>
+
+        <section>
+          <h2>7. Split Monster Functions</h2>
+        </section>
+
+        <section>
+          <h2>8 and 9. Mocking</h2>
+        </section>
+
+        <section>
+          <h2>10. Anonymous classes</h2>
+        </section>
+
+        <section>
+          <h2>11 and 12. Testing protected methods require Reflection</h2>
+        </section>
+
+        <section>
+          <h2>13. PHP Traits</h2>
+        </section>
+
+        <section>
+          <h2>14. The Drupal testbot</h2>
+        </section>
+
+        <section>
+          <h2>Start Unit Testing Your Code Today</h2>
+          <h3>Albert Albala</h3>
+          <p>Dcycle</p>
+          <p>@alberto56</p>
+          <p>This presentation is at<br/> github.com/alberto56/presentation-unit-test</p>
+          <p>Come see me with your issues!</p>
+        </section>
+
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        history: true,
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+          { src: 'plugin/markdown/marked.js' },
+          { src: 'plugin/markdown/markdown.js' },
+          { src: 'plugin/notes/notes.js', async: true },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  presentation:
+    image: httpd
+    volumes:
+      - ".:/usr/local/apache2/htdocs"
+    ports:
+      - "80"
+    working_dir: /usr/local/apache2/htdocs
+
+networks:
+  default:
+    external:
+      name: presentation-drupal-auto-security
