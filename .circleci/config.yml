@@ -1,11 +1,10 @@
+# [CircleCI](https://circleci.com).
 ---
-version: 2
+version: 2.1
 jobs:
   build:
-    # Circle CI can run its tests on a Docker container or on a VM. We
-    # are using a VM because our tests themselves need a functional
-    # Docker installation, and DinD (Docker in Docker) has issues.
-    machine: true
+    machine:
+      image: ubuntu-2004:202201-02
     steps:
       - checkout
       - run:
