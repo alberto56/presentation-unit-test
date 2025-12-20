@@ -1,0 +1,24 @@
+backend:
+  name: github
+  repo: alberto56/presentation-unit-test
+  branch: master
+  base_url: https://suresh-issue-82.dcycleproject.org
+  auth_endpoint: /auth/github/repo/6946e3fc7c6e2b059bec66c1
+media_folder: static/uploads
+public_folder: /uploads
+collections:
+  - name: blog
+    label: Blog
+    folder: content/blog
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Date
+        name: date
+        widget: datetime
+      - label: Body
+        name: body
+        widget: markdown
